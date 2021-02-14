@@ -2,5 +2,5 @@
 #    path: /
 #    controller: App\Controller\DefaultController::index
 app_numero:
-    path: /suerte/numero
+    path: /numero
     controller: App\Controller\Controlador::numero
