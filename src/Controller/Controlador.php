@@ -25,4 +25,12 @@ class Controlador extends AbstractController
     {
         return new Response('Página de ayuda');
     }
+  /**
+     * @Route("/acercade")
+     */
+    public function acercade()
+    {
+        return new Response('Acerca De');
+    }
+
 }
